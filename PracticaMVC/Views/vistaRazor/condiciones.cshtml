@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "condiciones";
+}
+
+@{
+    var mensaje = "";
+    var User = "admin";
+    if (User == "admin")
+    {
+        mensaje = "Administrador del sistema";
+
+    }else
+    {
+        mensaje = "Gestor";
+    }
+
+}
+<h2>condiciones</h2>
+<p>Bienvenido @mensaje</p>
